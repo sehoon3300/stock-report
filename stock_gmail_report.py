@@ -14,6 +14,10 @@ GMAIL_ID = os.getenv('GMAIL_ID')
 GMAIL_APP_PASSWORD = os.getenv('GMAIL_APP_PASSWORD')
 RECEIVER_EMAIL = os.getenv('RECEIVER_EMAIL')
 
+# KRX 로그인
+os.environ['KRX_ID'] = os.getenv('KRX_ID', '')
+os.environ['KRX_PW'] = os.getenv('KRX_PW', '')
+
 portfolio = {
     '360750': 'TIGER 미국S&P500',
     '448300': 'TIGER 미국나스닥100(H)',
