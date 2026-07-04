@@ -18,7 +18,7 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install pykrx yfinance pandas
+          pip install pykrx yfinance pandas requests
       
       - name: Run stock report
         env:
